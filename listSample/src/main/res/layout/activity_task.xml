@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <data>
+        <variable
+            name="task"
+            type="kgmyshin.databindingsample.Task" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_m"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id="@+id/body_filed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{task.body}"
+            />
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="save"
+            />
+
+    </LinearLayout>
+</layout>
