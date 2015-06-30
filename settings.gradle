@@ -1,1 +1,1 @@
-include ':InmutableDataSample', ':MutableDataSample', 'ListSample'
+include ':InmutableDataSample', ':MutableDataSample', ':ListenerBindSample', ':CustomSetterBinding', 'ListSample'
